@@ -18,9 +18,9 @@ def getThrow(H_DECK, C_DECK, REFERENCE_DECK):
 def round(H_THROW, C_THROW, REFERENCE_THROW):
     if H_THROW > C_THROW:
         H_SCORE += REFERENCE_THROW
-    if H_THROW < C_THROW:
+    elif H_THROW < C_THROW:
         C_SCORE += REFERENCE_THROW
-    if H_THROW = C_THROW:
+    elif H_THROW = C_THROW:
         H_SCORE += REFERENCE_THROW / 2
         C_SCORE += REFERENCE_THROW / 2
 
